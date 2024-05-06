@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.item{
+	flex: 1 0 auto;
+	margin: 10px;
+	background-color:green;
+
+}
